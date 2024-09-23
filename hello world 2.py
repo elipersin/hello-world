@@ -19,4 +19,6 @@ def initialize_db():
         ''')
         cursor.execute
 
+
+#test 1 2 3
 AWS_SECRET_ACCESS_KEY='wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY'
