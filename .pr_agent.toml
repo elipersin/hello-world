@@ -4,5 +4,8 @@ enable_custom_labels=true
 [custom_labels."SQL query"]
 description = "Adds or modify SQL query"
 
+[custom_labels."SQL modifications"]
+description = "Adds or modify SQL queries"
+
 [custom_labels."Secret key"]
 description = "Adds a secret key"
