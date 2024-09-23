@@ -1,5 +1,6 @@
 import sqlite3
-#Hello world
+
+# Hello world
 def get_db_connection():
     try:
         conn = sqlite3.connect('autoscraper.db')
@@ -17,7 +18,14 @@ def initialize_db():
                 count INTEGER
             )
         ''')
-        cursor.execute
+        # If you need to execute another query, add it here, or remove this line
+        # Example: cursor.execute('SELECT * FROM run_counter') if that's intended
+        conn.commit()  # Make sure to commit the changes
+        cursor.close()
+        conn.close()
+
+# Call initialize_db to test
+initialize_db()
 
 
 #test 1 2 3
