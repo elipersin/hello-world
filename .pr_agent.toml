@@ -1,3 +1,4 @@
+[config]
 enable_custom_labels=true
 
 [custom_labels."SQL query"]
